@@ -1,0 +1,4 @@
+#!/bin/sh
+
+python .git/hooks/parse_project.py
+git add -- ./src

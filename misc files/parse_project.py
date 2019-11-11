@@ -13,7 +13,7 @@ def parse(file_path):
     for _, _, vba_filename, vba_code in vba_parser.extract_macros():
         if not os.path.isdir(vba_folder):
             os.makedirs(vba_folder)
-        with open(os.path.join(vba_folder, vba_filename), 'w', encoding='utf-8') as file:
+        with open(os.path.join(vba_folder, vba_filename), 'w', encoding='utf-8', newline='\n') as file:
             file.write(vba_code);
     vba_parser.close();
 

@@ -4,7 +4,8 @@ An Excel VBA project that creates a quick overview of all the products manufactu
 This report was created to replace the existing one that had the following problems:
 * Slow
 * Had missing information about products
-* Total value of a product was not always accurate
+* Total value of a product was not always accurate  
+
 This project is done in Excel since it was the only tool available at work computers to complete such a report. Similar report can be done inside JD Edwards EnterpriseOne, though without any fancy graphics. Also there are better tools for this task, for example Power BI Desktop, Tableau, etc.
 
 ## Usage

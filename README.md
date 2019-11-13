@@ -2,7 +2,7 @@
 An Excel VBA project that creates a quick overview of all the products manufactured at the Pittsburgh site which are completed and ready to be released and shipped. Shows detailed information such as dollar value of the product, related status, and location in the warehouse. Data is retrieved from JD Edwards EnterpriseOne.
 
 This report was created to replace the existing one that had the following problems:
-* Slow
+* Really slow
 * Had missing information about products
 * Total value of a product was not always accurate  
 
